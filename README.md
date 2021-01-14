@@ -5,11 +5,14 @@ MySQL = 8.0.22
 PHPMyAdmin = 5.0.4
 
 ```
+docker-compose up --build
 docker-compose up -d
 
 docker-compose ps
 ip
 docker-compose down
+
+docker build . -t my-app-image:1.0.1
 ```
 
 http://localhost:5000/
